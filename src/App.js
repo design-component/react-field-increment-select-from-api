@@ -22,7 +22,7 @@ function App() {
 					fields: [
 						...state.fields,
 						{
-							id: state.fields[state.fields.length - 1]?.id + 1 || 1,,
+							id: state.fields[state.fields.length - 1]?.id + 1 || 1,
 							name: '',
 							value: '',
 						},
