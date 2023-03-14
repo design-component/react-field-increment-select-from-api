@@ -100,6 +100,10 @@ function App() {
 						}}
 					/>
 					<button
+						disabled={state.fields.length === 1}
+						style={{
+							display: state.fields.length === 1 ? 'none' : 'inline-block',
+						}}
 						className="btn btn-danger btn-sm"
 						onClick={() =>
 							dispatch({
