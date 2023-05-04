@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Fields({ state, data, dispatch }) {
+	console.log(data);
 	return (
 		<div style={{ display: 'flex' }}>
 			<div>

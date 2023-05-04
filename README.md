@@ -2,18 +2,18 @@
 
 This is React Js Project and Using Bootstrap-5 CDN
 
-- [Live Link https://react-fields-increment.netlify.app/](https://react-fields-increment.netlify.app/)
+- [Live Link https://react-field-increment-select-from-api.netlify.app/](https://react-field-increment-select-from-api.netlify.app/)
 
 ## Installation
 
 Install react with npm
 
 ```bash
-  git clone https://github.com/design-component/React-Field-Increment.git
+  git clone https://github.com/design-component/react-field-increment-select-from-api.git
 ```
 
 ```bash
-  cd React-Field-Increment
+  cd react-field-increment-select-from-api
 ```
 
 then,
