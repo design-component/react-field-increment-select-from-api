@@ -23,7 +23,11 @@ export const MyApiFun = (initialState) => {
 					...state,
 					selected: state.selected.map((e) =>
 						e.id === action.payload.id
-							? { ...e, [action.payload.name]: action.payload.value }
+							? {
+									...e,
+									itemID: action.payload.itemID,
+									[action.payload.name]: action.payload.value,
+							  }
 							: { ...e }
 					),
 				};
